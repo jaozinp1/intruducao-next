@@ -4,6 +4,8 @@ export default function Home() {
     <div>
       <h1>Hello World!!!</h1>
       <p>Primeiro exemplo no Next</p>
+
+      <div className="quadrado"></div>
     </div>
   );
 }

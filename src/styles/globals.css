@@ -19,6 +19,11 @@ body {
   padding: 0;
   margin: 0;
 }
+.quadrado {
+  background-color: springgreen;
+  height: 50rem;
+  width: 50rem;
+}
 
 @media screen and (max-width: 960px){
   html {
