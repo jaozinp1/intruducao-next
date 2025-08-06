@@ -1,0 +1,34 @@
+html {
+  font-size: 62.5%;
+  max-width: 100vw;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Geist", "Geist Fallback ";
+  max-width: 32rem;
+  min-height: 100vh;
+  max-width: 144rem;
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto ;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 960px){
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width:500px){
+  html {
+    font-size: 25%;
+  }
+  
+}
