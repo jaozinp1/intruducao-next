@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-
+import Image from 'next/image'; // Adicione esta linha
 
 export default function Home() {
   return(
@@ -12,6 +12,22 @@ export default function Home() {
       <small>Texto menor</small>
       <br/>
       <div className="quadrado"></div>
+
+      <Image 
+      src='/temp/arvore.jpg'
+      alt="Arvore"
+      width={130}
+      height={90}
+      />
+
+      
+      <Image 
+      src='/temp/arvore.jpg'
+      alt="Arvore"
+      width={1300}
+      height={900}
+      />
+
     </div>
   );
 }
